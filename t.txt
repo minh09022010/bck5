@@ -1,0 +1,12 @@
+| File CSS       │ Nội dung                                                         │
+├────────────────┼──────────────────────────────────────────────────────────────────┤
+│ variables.css  │ Google Fonts + toàn bộ biến CSS (:root)                          │
+│ base.css       │ Reset CSS, base styles, container                                │
+│ header.css     │ Header, navbar, logo, menu                                       │
+│ hero.css       │ Hero section + page hero + breadcrumb                            │
+│ components.css │ Buttons, section headers, pagination, forms, filters, skill bars │
+│ sections.css   │ Course cards, categories, stats, testimonials, CTA, about page   │
+│ pages.css      │ Pricing, instructors, blog, FAQ, auth, contact, course detail    │
+│ footer.css     │ Footer styles                                                    │
+│ utilities.css  │ Utility classes, animations, scrollbar, selection                │
+│ responsive.css │ Tất cả media queries                                             |

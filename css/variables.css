@@ -1,0 +1,81 @@
+/* ----- Google Fonts Import ----- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+/* ----- CSS Variables / Design Tokens ----- */
+:root {
+  /* 🎨 Premium Palette */
+  --primary: #7C3AED;
+  --primary-dark: #5B21B6;
+  --primary-light: #A78BFA;
+  --primary-lighter: #DDD6FE;
+  --primary-bg: #F5F3FF;
+
+  /* Accent */
+  --accent: #F43F5E;
+  --accent-dark: #E11D48;
+  --accent-light: #FDA4AF;
+
+  /* Neutral / Dark */
+  --secondary: #0F0A1E;
+  --secondary-light: #1E1438;
+  --secondary-lighter: #2D1F52;
+
+  /* Backgrounds */
+  --bg: #F8F7FC;
+  --white: #FFFFFF;
+
+  /* Gray Scale */
+  --gray-50: #F1F0F6;
+  --gray-100: #E2DFEE;
+  --gray-200: #C4BFD8;
+  --gray-300: #9F97BA;
+  --gray-400: #7A719A;
+  --gray-500: #554D73;
+  --gray-600: #3D3657;
+  --gray-700: #262040;
+  --gray-800: #18122E;
+  --gray-900: #0C0820;
+
+  /* Semantic */
+  --success: #059669;
+  --success-bg: #D1FAE5;
+  --error: #DC2626;
+  --error-bg: #FEE2E2;
+  --warning: #D97706;
+  --warning-bg: #FEF3C7;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(124, 58, 237, 0.06), 0 1px 2px rgba(124, 58, 237, 0.04);
+  --shadow-md: 0 4px 20px rgba(124, 58, 237, 0.1);
+  --shadow-lg: 0 10px 40px rgba(124, 58, 237, 0.12);
+  --shadow-xl: 0 20px 60px rgba(124, 58, 237, 0.15);
+  --shadow-2xl: 0 30px 80px rgba(124, 58, 237, 0.18);
+
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-2xl: 32px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Container */
+  --container-width: 1200px;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #7C3AED, #F43F5E);
+  --gradient-primary-reverse: linear-gradient(135deg, #F43F5E, #7C3AED);
+  --gradient-accent: linear-gradient(135deg, #5B21B6, #E11D48);
+  --gradient-dark: linear-gradient(160deg, #0F0A1E 0%, #1E1438 50%, #2D1F52 100%);
+  --gradient-card: linear-gradient(135deg, rgba(124, 58, 237, 0.04), rgba(244, 63, 94, 0.04));
+  --gradient-warm: linear-gradient(135deg, #7C3AED, #8B5CF6, #F43F5E);
+  --gradient-hero: linear-gradient(160deg, #0F0A1E 0%, #1E1438 40%, #2D1F52 100%);
+
+  /* Star */
+  --star: #F59E0B;
+}
